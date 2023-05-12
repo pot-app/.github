@@ -18,6 +18,7 @@ jobs:
           token: ${{ secrets.TOKEN }}
           base: ""
           template: repository
+          user: pot-app
           repo: pot-desktop
           plugin_contributors: yes
           plugin_contributors_contributions: yes
@@ -32,6 +33,7 @@ jobs:
           token: ${{ secrets.TOKEN }}
           base: ""
           template: repository
+          user: pot-app
           repo: pot-desktop
           plugin_stargazers: yes
           plugin_stargazers_charts_type: graph
