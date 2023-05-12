@@ -1,0 +1,37 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 */6 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+jobs:
+  pot-desktop-contributions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: pot-desktop-contributions.svg
+          token: ${{ secrets.TOKEN }}
+          base: ""
+          template: repository
+          repo: pot-desktop
+          plugin_contributors: yes
+          plugin_contributors_contributions: yes
+  pot-stars:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: pot-desktop-stars.svg
+          token: ${{ secrets.TOKEN }}
+          base: ""
+          template: repository
+          repo: pot-desktop
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: graph
