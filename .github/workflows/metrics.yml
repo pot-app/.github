@@ -16,8 +16,8 @@ jobs:
         with:
           filename: pot-app-metrics.svg
           token: ${{ secrets.TOKEN }}
-          base: ""
-          template: organizations
+          config_timezone: Asia/Shanghai
+          repositories_skipped: .github
           user: pot-app
   pot-desktop-contributions:
     runs-on: ubuntu-latest
