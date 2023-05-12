@@ -7,6 +7,18 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
+  org:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: pot-app-metrics.svg
+          token: ${{ secrets.TOKEN }}
+          base: ""
+          template: organizations
+          user: pot-app
   pot-desktop-contributions:
     runs-on: ubuntu-latest
     permissions:
@@ -22,7 +34,7 @@ jobs:
           repo: pot-desktop
           plugin_contributors: yes
           plugin_contributors_contributions: yes
-  pot-stars:
+  pot-desktop-stars:
     runs-on: ubuntu-latest
     permissions:
       contents: write
