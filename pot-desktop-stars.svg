@@ -77,33 +77,37 @@
                                 </g>
                             </g>
                             <g transform="translate(10,10)" fill="none" font-size="10" font-family="sans-serif" text-anchor="start">
-                                <g class="tick" opacity="1" transform="translate(0,28.83333333333334)">
+                                <g class="tick" opacity="1" transform="translate(0,27.166666666666664)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">12,200</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,62.16666666666667)">
+                                <g class="tick" opacity="1" transform="translate(0,60.499999999999986)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">12,180</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,95.49999999999999)">
+                                <g class="tick" opacity="1" transform="translate(0,93.83333333333334)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">12,160</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,128.83333333333334)">
+                                <g class="tick" opacity="1" transform="translate(0,127.16666666666666)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">12,140</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,162.16666666666669)">
+                                <g class="tick" opacity="1" transform="translate(0,160.5)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">12,120</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,195.5)">
+                                <g class="tick" opacity="1" transform="translate(0,193.83333333333334)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">12,100</text>
                                 </g>
-                                <g class="tick" opacity="1" transform="translate(0,228.83333333333334)">
+                                <g class="tick" opacity="1" transform="translate(0,227.16666666666669)">
                                     <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
                                     <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">12,080</text>
+                                </g>
+                                <g class="tick" opacity="1" transform="translate(0,260.5)">
+                                    <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
+                                    <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">12,060</text>
                                 </g>
                             </g>
                             <path transform="translate(10,10)" d="M10,260L44.615,235L79.231,201.667L113.846,166.667L148.462,148.333L183.077,131.667L217.692,121.667L252.308,111.667L286.923,96.667L321.538,78.333L356.154,61.667L390.769,43.333L425.385,23.333L460,10" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
